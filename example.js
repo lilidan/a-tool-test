@@ -1,6 +1,7 @@
-function greetUser(name = "World") {
-    console.log(`Hello, ${name}!`);
+function greetUser(name = "World", time = "day") {
+    console.log(`Good ${time}, ${name}!`);
 }
 
 greetUser();
-greetUser("JavaScript");
+greetUser("JavaScript", "morning");
+greetUser("Developer", "evening");
