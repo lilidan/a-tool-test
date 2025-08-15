@@ -1,5 +1,5 @@
-function greetUser(name = "World", time = "day") {
-    console.log(`Good ${time}, ${name}!`);
+function greetUser(name = "Guest", time = "day") {
+    console.log(`Hello ${time}, ${name}!`);
 }
 
 greetUser();
